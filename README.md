@@ -54,10 +54,10 @@ Annotations can be made also in a pdf document, e.g using Adobe Acrobat.
 If the research involves data from extern parties we advise to create a data 
 management plan, see e.g. (http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm) 
 
-If not the following rules still apply:
+If not, the following rules still apply:
+
 - never copy and paste data
 - use scripts to obtain data (and keep those scripts under version control)
-- 
 
 We know that it will not be easy to follow these simple rules, but help us to
 make this easier instead of fiddling with your own work arounds. 
