@@ -94,6 +94,7 @@ your project.
 Have a look at the following links:
 
 - [docker](https://www.docker.com/) for even more reproducibility
+- [provenance](https://www.w3.org/TR/prov-dm/) for a better data management **better link?**
 - [jupyter](https://jupyter.org/) for live notebooks
 - [travis CI](https://travis-ci.org/) for automatic checking
 - [doxygen](https://en.wikipedia.org/wiki/Doxygen) for easy documentation
