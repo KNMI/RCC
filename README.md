@@ -1,6 +1,7 @@
 # Research Code of Conduct
 
 [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
+[![Last updated](https://img.shields.io/badge/Date-2017/02/23-brightgreen.svg)]()
 
 ### Why?
 
@@ -99,3 +100,8 @@ Have a look at the following links:
 - [travis CI](https://travis-ci.org/) for automatic checking
 - [doxygen](https://en.wikipedia.org/wiki/Doxygen) for easy documentation
   / R-users should have a look at [roxygen2](https://cran.r-project.org/web/packages/roxygen2/index.html) 
+
+---
+As agreed by the steering group of the RDWD department, applying this Code of
+conduct should be standard for new research staff, and is recommended for 
+existing staff.
