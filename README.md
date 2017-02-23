@@ -26,7 +26,8 @@ existing staff.
 ### Version control
 
 The core of reproducibility for a modern scientist working with electronic 
-reports and computerized simulation/experiments is a working version control.
+reports and computerized simulation/experiments is a working version control
+system.
 This is quite different from using file endings such as *almostFinalDraft.doc*.
 Version control (aka git for us) should be implemented right from the start.
 If you don't know what git is, check the [git basics](https://git-scm.com/videos).
@@ -57,7 +58,8 @@ Modern Latex online editors allow to track document history and collaborative
 writing (e.g., https://www.sharelatex.com/).
 Word files can be set under version control, but changes between different
 versions can not be shown. 
-Annotations can be made also in a pdf document, e.g using Adobe Acrobat.
+If your supervisor does not use git yet, he can make annotations in a pdf
+document, e.g using Adobe Acrobat.
 
 ### Data management
 
