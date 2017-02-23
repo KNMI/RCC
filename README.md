@@ -35,7 +35,7 @@ document what you did to get to the results.
 
 Recommendations:
 
-- public repos should be stored on the [KNMI github](https://github.com/KNMI) 
+- public repos should be stored on the [KNMI github](https://github.com/KNMI) account
     * consider using repo status badges to indicate the status of your project, e.g. [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
     * use only if your project has official status: [![Status](https://img.shields.io/badge/Status-KNMI--official-brightgreen.svg)]()
 - private repos (for a limited amount of users) can be obtained for free at
