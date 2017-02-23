@@ -17,6 +17,11 @@ Reproducibility is one of the main principles of the scientific method
 Reusability boils down to *not invent the wheel over and over again*. For
 a less sloppy wording, see e.g. (https://en.wikipedia.org/wiki/Reusability).
 
+As agreed by the steering group of the RDWD department, applying this Code of
+conduct should be standard for new research staff, and is recommended for 
+existing staff.
+
+---
 ### Version control
 
 The core of reproducibility for a modern scientist working with electronic 
@@ -105,7 +110,3 @@ Have a look at the following links:
 - [doxygen](https://en.wikipedia.org/wiki/Doxygen) for easy documentation
   / R-users should have a look at [roxygen2](https://cran.r-project.org/web/packages/roxygen2/index.html) 
 
----
-As agreed by the steering group of the RDWD department, applying this Code of
-conduct should be standard for new research staff, and is recommended for 
-existing staff.
