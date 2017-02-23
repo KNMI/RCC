@@ -5,7 +5,7 @@
 
 ### Why?
 
-With the code of conduct we set standards, that should **help** increase the 
+With the code of conduct we set standards, that should **help*** increase the 
 reproducibility and reusability of the departmental research. 
 
 Reproducibility is the ability of an entire experiment or study to be duplicated,
@@ -21,6 +21,7 @@ As agreed by the steering group of the RDWD department, applying this Code of
 conduct should be standard for new research staff, and is recommended for 
 existing staff.
 
+
 ---
 ### Version control
 
@@ -35,12 +36,11 @@ document what you did to get to the results.
 Recommendations:
 
 - public repos should be stored on the [KNMI github](https://github.com/KNMI) 
-  account
+  account (use a disclaimer for work that is not official) (is a badge enough, is anything on the account official, should we create a badge KNMI official?)
 - private repos (for a limited amount of users) can be obtained for free at
   [bitbucket](https://bitbucket.org/product)
 - if your supervisor does not use git yet get a git buddy, e.g. any 
   [member](https://github.com/orgs/KNMI/people) of the KNMI github account
-- use a disclaimer for work that is not official **this has to be discussed** (is a badge enough, is anything on the account official, should we create a badge KNMI official?)
 
 
 ### Writing
@@ -70,7 +70,7 @@ If not, the following rules still apply:
 
 We know that it will not be easy to follow these simple rules, but help us to
 make this easier instead of fiddling with your own work arounds. 
-Also feel free to consult us **where?** if you experience difficulties. 
+Also feel free to consult [us](https://github.com/orgs/KNMI/teams/rrr) if you experience difficulties. 
 
 ### Repository management
 
@@ -110,3 +110,5 @@ Have a look at the following links:
 - [doxygen](https://en.wikipedia.org/wiki/Doxygen) for easy documentation
   / R-users should have a look at [roxygen2](https://cran.r-project.org/web/packages/roxygen2/index.html) 
 
+***
+*if you doubt this and require some changes feel free to contact [us](https://github.com/orgs/KNMI/teams/rrr)
