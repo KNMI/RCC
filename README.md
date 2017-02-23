@@ -19,8 +19,9 @@ a less sloppy wording, see e.g. (https://en.wikipedia.org/wiki/Reusability).
 
 ### Version control
 
-The core of reproducibility is a working version control, this is quite
-different from using file endings such as *almostFinalDraft.doc*.
+The core of reproducibility for a modern scientist working with electronic 
+reports and computerized simulation/experiments is a working version control.
+This is quite different from using file endings such as *almostFinalDraft.doc*.
 Version control (aka git for us) should be implemented right from the start.
 If you don't know what git is, check the [git basics](https://git-scm.com/videos).
 A version control system also works as a kind of lab book, which you can use to
@@ -34,7 +35,7 @@ Recommendations:
   [bitbucket](https://bitbucket.org/product)
 - if your supervisor does not use git yet get a git buddy, e.g. any 
   [member](https://github.com/orgs/KNMI/people) of the KNMI github account
-- use a disclaimer for work that is not official **this has to be discussed** (is a badge enough, is anything on the account official, should we create a batch KNMI official?)
+- use a disclaimer for work that is not official **this has to be discussed** (is a badge enough, is anything on the account official, should we create a badge KNMI official?)
 
 
 ### Writing
@@ -46,6 +47,8 @@ changes will be made to the initial document.
 If this process is not reproducible a lot of knowledge will disappear.
 
 We encourage the use of traceable files, e.g. Latex or (variants of) markdown.
+Modern Latex online editors allow to track document history and collaborative
+writing (e.g., https://www.sharelatex.com/).
 Word files can be set under version control, but changes between different
 versions can not be shown. 
 Annotations can be made also in a pdf document, e.g using Adobe Acrobat.
@@ -95,7 +98,8 @@ your project.
 Have a look at the following links:
 
 - [docker](https://www.docker.com/) for even more reproducibility
-- [provenance](https://www.w3.org/TR/prov-dm/) for a better data management **better link?**
+- [provenance](https://www.w3.org/TR/prov-dm/) Introduction to the concept of provenance and traceability according to W3C.
+- [dispel4py](https://github.com/dispel4py/dispel4py) processing library and workflows (https://github.com/aspinuso/wps_workflow)
 - [jupyter](https://jupyter.org/) for live notebooks
 - [travis CI](https://travis-ci.org/) for automatic checking
 - [doxygen](https://en.wikipedia.org/wiki/Doxygen) for easy documentation
