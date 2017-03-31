@@ -1,7 +1,7 @@
 # Research Code of Conduct
 
 [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
-[![Last updated](https://img.shields.io/badge/Date-2017/02/23-brightgreen.svg)]()
+[![Last updated](https://img.shields.io/badge/Date-2017/03/31-brightgreen.svg)]()
 
 ### Why?
 
@@ -17,9 +17,9 @@ Reproducibility is one of the main principles of the scientific method
 Reusability boils down to *not invent the wheel over and over again*. For
 a less sloppy wording, see e.g. (https://en.wikipedia.org/wiki/Reusability).
 
-As agreed by the steering group of the RDWD department, applying this Code of
-conduct should be standard for new research staff, and is recommended for 
-existing staff.
+The steering group of the RDWD department strongly recommends that this Code of
+conduct is applied by new and existing research staff.
+
 
 
 ---
@@ -63,7 +63,7 @@ document, e.g using Adobe Acrobat.
 
 ### Data management
 
-If the research involves data from extern parties we advise to create a data 
+If the research involves data from external parties we advise to create a data 
 management plan, see e.g. (http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm) 
 
 If not, the following rules still apply:
