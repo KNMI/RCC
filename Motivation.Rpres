@@ -57,13 +57,13 @@ Git
 ========================================================
 The core of reproducibility  is a working version control system.
 
-Version control (aka git for us) should be implemented right from the start.
-
-If you don't know what git is, check the
-[git basics](https://git-scm.com/videos).
-
 A version control system also works as a kind of lab book, e.g.
 [RCC commits](https://github.com/KNMI/RCC/commits/master).
+
+Version control (aka git for us) should be implemented right from the start.
+
+A good start point are the [git basics](https://git-scm.com/videos).
+
 
 Recommendations
 ========================================================
@@ -74,8 +74,9 @@ account
 Private repos (for a limited amount of users) can be obtained for free at
 [bitbucket](https://bitbucket.org/product)
 
-If your supervisor does not use git yet get a git buddy, e.g. any
+If your do not know how to use git yet, any
 [member](https://github.com/orgs/KNMI/people) of the KNMI github account
+should be able to help you.
 
 Repository management
 ========================================================
@@ -109,30 +110,24 @@ experience difficulties.
 Writing
 ========================================================
 
- - Git is not only for programmers
- - many changes before initial document gets published
- - without documentation knowledge of creation will disappear
- - markdown and latex can be used for generic reports or
-   **literate programming**
- - differences between versions can be shown natively
- - [sharelatex](https://www.sharelatex.com/) allows colaboratinve writing and
-   tracks document history
- - [pandoc
-   ](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
-   allows to show differences even between word files
+Git is not only for programmers.
+As it is usually a long way from initial idea to a published paper, a lot of
+knowledge vanishes when the changes between versions are not documented.
+
+Generic reports or *literate programming* as facilitated by markdown and latex
+help to keep everyting together.
+
+[Sharelatex](https://www.sharelatex.com/) allows colaboratinve writing and
+tracks document history.
+
+[Pandoc](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
+allows to show even the differences between word files.
 
 
 Note on literate programming
 ========================================================
 ```{r}
-AnswerAllQuestions <- function(question) {
-  42
-}
-
-```
-
-```{r}
-AnswerAllQuestions("What makes the world go round?")
+plot(rnorm(100))
 ```
 
 Coding
