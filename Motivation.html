@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Motivation</title>
+  <title>Motivation for the Research Code of Conduct (RCC)</title>
     
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -784,7 +784,7 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<h1>Motivation</h1><p></p>
+<h1>Motivation for the Research Code of Conduct (RCC)</h1><p>The RCC team (more later)<br/>1. June 2017</p>
 
 <div class="slideContent" >
 
@@ -792,15 +792,198 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
-<h3>First Slide</h3>
+<h3>Motivational examples</h3>
 <div class="slideContent" >
-<p>For more details on authoring R presentations please visit <a href="https://support.rstudio.com/hc/en-us/articles/200486468">https://support.rstudio.com/hc/en-us/articles/200486468</a>.</p>
+<ul>
+<li>my own paper</li>
+<li>KNMI&#39;14 scenario brochure</li>
+<li>Earthquake hazard</li>
+<li>many more &hellip;</li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Aim</h3>
+<div class="slideContent" >
+<p>With the research code of conduct (RCC) we set standards, that should <strong>help</strong>
+increase the reproducibility and reusability of the departmental research.</p>
 
 <ul>
-<li>Bullet 1</li>
-<li>Bullet 2</li>
-<li>Bullet 3</li>
+<li>reproducibility: you / your colleagues / others can reproduce your study</li>
+<li>reusability: you / your colleagues / others can reuse your methods (without a
+lot of copying &amp; pasting)</li>
 </ul>
+
+<p>It is not necessary to reach everything immediately, but the direction is clear.</p>
+
+<p>The current version of the RCC can be found at <a href="https://github.com/KNMI/RCC">https://github.com/KNMI/RCC</a>.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Contents</h3>
+<div class="slideContent" >
+<ul>
+<li>Version control</li>
+<li>Repository management</li>
+<li>Data management</li>
+<li>Writing</li>
+<li>Coding standards</li>
+<li>Additional sugar</li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Version control</h3>
+<div class="slideContent" >
+<p>Do you recognize this?</p>
+
+<p class="fragment">revision.doc<br>
+final.doc<br>
+final2.doc</p>
+
+<p class="fragment">Then you are doing it wrong! It should be:</p>
+
+<p class="fragment">manuscript_v01.doc<br>
+manuscript_v02.doc<br>
+manuscript_v99.doc</p>
+
+<p class="fragment">Or <strong>much</strong> better use a real version control system, aka <strong>git</strong>!</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Git</h3>
+<div class="slideContent" >
+<p>The core of reproducibility  is a working version control system.</p>
+
+<p>Version control (aka git for us) should be implemented right from the start.</p>
+
+<p>If you don&#39;t know what git is, check the <a href="https://git-scm.com/videos">git basics</a>.</p>
+
+<p>A version control system also works as a kind of lab book, e.g.
+<a href="https://github.com/KNMI/RCC/commits/master">RCC commits</a>.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Recommendations</h3>
+<div class="slideContent" >
+<p>Public repos should be stored on the <a href="https://github.com/KNMI">KNMI github</a> account</p>
+
+<p>Private repos (for a limited amount of users) can be obtained for free at
+<a href="https://bitbucket.org/product">bitbucket</a></p>
+
+<p>If your supervisor does not use git yet get a git buddy, e.g. any
+<a href="https://github.com/orgs/KNMI/people">member</a> of the KNMI github account</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Repository management</h3>
+<div class="slideContent" >
+<p>Try to structure your repository or research project folder.
+Within a repository you will encounter frequently:</p>
+
+<ul>
+<li>data (for all the data)</li>
+<li>figures (for your plots)</li>
+<li>scripts</li>
+<li>R (if you define R functions)</li>
+<li>src (for source code)</li>
+<li>tests</li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Data management</h3>
+<div class="slideContent" >
+<p>For external data create a data management plan, see e.g.
+(<a href="http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm">http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm</a>)</p>
+
+<p>If not, the following rule still applies:</p>
+
+<p><strong>Try not to copy and paste data and instead use scripts to obtain data</strong>
+(and keep those scripts under version control).</p>
+
+<p>This looks simpler than it is, but if we work together that should become easier
+over time.
+Feel free to consult <a href="https://github.com/orgs/KNMI/teams/rrr">us</a> if you
+experience difficulties.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Writing</h3>
+<div class="slideContent" >
+<p>Git is not only for programmers, also the process to a report or published
+paper is long and many changes will be made to the initial document, if these
+are not documented a lot of knowledge will disappear.</p>
+
+<p>We encourage the use of traceable files, e.g. Latex or (variants of) markdown.
+Modern Latex online editors allow to track document history and collaborative
+writing (e.g., <a href="https://www.sharelatex.com/">https://www.sharelatex.com/</a>).
+Word files can be set under version control, but changes between different
+versions can not be shown.
+If your supervisor does not use git yet, he can make annotations in a pdf
+document, e.g using Adobe Acrobat.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Coding standards</h3>
+<div class="slideContent" >
+<p>If you do program functions or scripts, it is very useful to use some consitent
+coding style:</p>
+
+<ul>
+<li>Python: <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a></li>
+<li>R: <a href="http://adv-r.had.co.nz/Style.html">tidyverse</a> or <a href="https://google.github.io/styleguide/Rguide.xml">google</a></li>
+</ul>
+
+<p>More generally we think it is useful to write functions, that can be used as a
+module or package within several scripts.
+This increases the reusability and decreases the number of potential errors.</p>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Sugar on top?</h3>
+<div class="slideContent" >
+<p>If you want to do even more to increase the reproducibility and reusability of
+your project.
+Have a look at the following links:</p>
+
+<ul>
+<li><a href="https://www.docker.com/">docker</a> for even more reproducibility</li>
+<li><a href="https://www.w3.org/TR/prov-dm/">provenance</a> Introduction to the concept of provenance and traceability according to W3C.</li>
+<li><a href="https://github.com/dispel4py/dispel4py">dispel4py</a> processing library and workflows (<a href="https://github.com/aspinuso/wps_workflow">https://github.com/aspinuso/wps_workflow</a>)</li>
+<li><a href="https://jupyter.org/">jupyter</a> for live notebooks</li>
+<li><a href="https://travis-ci.org/">travis CI</a> for automatic checking</li>
+<li><a href="https://en.wikipedia.org/wiki/Doxygen">doxygen</a> for easy documentation
+/ R-users should have a look at <a href="https://cran.r-project.org/web/packages/roxygen2/index.html">roxygen2</a></li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>The RRR team</h3>
+<div class="slideContent" >
+<p>Needs fresh blood as some people are leaving &hellip;</p>
 
 </div>
 
