@@ -1,3 +1,8 @@
+---
+output:
+  html_document: default
+  word_document: default
+---
 # Research Code of Conduct
 
 [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
@@ -54,7 +59,7 @@ Within a repository you will encounter frequently:
  - R (for your functions)
  - src (for source code)
  - scripts 
- - ...
+ - tests
  
 ### Data management
 
@@ -68,7 +73,8 @@ If not, the following rules still apply:
 
 We know that it will not be easy to follow these simple rules, but help us to
 make this easier instead of fiddling with your own work arounds. 
-Also feel free to consult [us](https://github.com/orgs/KNMI/teams/rrr) if you experience difficulties. 
+Also feel free to consult [us](https://github.com/orgs/KNMI/teams/rrr) if you
+experience difficulties. 
 
 ### Writing
 
@@ -82,7 +88,8 @@ We encourage the use of traceable files, e.g. Latex or (variants of) markdown.
 Modern Latex online editors allow to track document history and collaborative
 writing (e.g., https://www.sharelatex.com/).
 Word files can be set under version control, but changes between different
-versions can not be shown. 
+versions can not be shown natively, for a workround look 
+[here](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/).
 If your supervisor does not use git yet, he can make annotations in a pdf
 document, e.g using Adobe Acrobat.
 
