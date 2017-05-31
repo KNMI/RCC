@@ -1,7 +1,7 @@
 # Research Code of Conduct
 
 [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
-[![Last updated](https://img.shields.io/badge/Date-2017/03/31-brightgreen.svg)]()
+[![Last updated](https://img.shields.io/badge/Date-2017/05/31-brightgreen.svg)]()
 
 ### Why?
 
