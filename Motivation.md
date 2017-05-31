@@ -8,8 +8,8 @@ Motivational examples
 ========================================================
 
 - my own paper
-- KNMI'14 scenario brochure
 - Earthquake hazard
+- KNMI'14 scenario brochure
 - many more ...
 
 Aim
@@ -22,9 +22,8 @@ increase the reproducibility and reusability of the departmental research.
 - reusability: you / your colleagues / others can reuse your methods (without a
   lot of copying & pasting)
 
-It is not necessary to reach everything immediately, but the direction is clear.
-
-The current version of the RCC can be found at <https://github.com/KNMI/RCC>.
+It is not necessary to reach everything immediately, but the direction should be
+clear.
 
 Contents
 ========================================================
@@ -113,8 +112,8 @@ Writing
  - Git is not only for programmers
  - many changes before initial document gets published
  - without documentation knowledge of creation will disappear
-
- - markdown and latex can be used for generic reports or literate programming
+ - markdown and latex can be used for generic reports or
+   **literate programming**
  - differences between versions can be shown natively
  - [sharelatex](https://www.sharelatex.com/) allows colaboratinve writing and
    tracks document history
@@ -122,6 +121,24 @@ Writing
    ](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
    allows to show differences even between word files
 
+
+Note on literate programming
+========================================================
+
+```r
+AnswerAllQuestions <- function(question) {
+  42
+}
+```
+
+
+```r
+AnswerAllQuestions("What makes the world go round?")
+```
+
+```
+[1] 42
+```
 
 Coding
 ========================================================
@@ -172,8 +189,8 @@ Example: knmitransformer
 
 The RRR team
 ========================================================
-The team for reproducible and reusable research consists
 
+![the team](./Motivation-figure/rrr.jpg "The RRR team")
 
 Some fresh blood is needed ...
 
