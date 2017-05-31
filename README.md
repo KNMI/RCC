@@ -45,22 +45,6 @@ Recommendations:
   [member](https://github.com/orgs/KNMI/people) of the KNMI github account
 
 
-### Writing
-
-You might think that git is something that programmers use, but that you are not
-focused on programming.
-Be aware that the process to a report or published paper is long and that many
-changes will be made to the initial document.
-If this process is not reproducible a lot of knowledge will disappear.
-
-We encourage the use of traceable files, e.g. Latex or (variants of) markdown.
-Modern Latex online editors allow to track document history and collaborative
-writing (e.g., https://www.sharelatex.com/).
-Word files can be set under version control, but changes between different
-versions can not be shown. 
-If your supervisor does not use git yet, he can make annotations in a pdf
-document, e.g using Adobe Acrobat.
-
 ### Data management
 
 If the research involves data from external parties we advise to create a data 
@@ -86,6 +70,23 @@ Within a repository you will encounter frequently:
  - src (for source code)
  - scripts 
  - ...
+ 
+### Writing
+
+You might think that git is something that programmers use, but that you are not
+focused on programming.
+Be aware that the process to a report or published paper is long and that many
+changes will be made to the initial document.
+If this process is not reproducible a lot of knowledge will disappear.
+
+We encourage the use of traceable files, e.g. Latex or (variants of) markdown.
+Modern Latex online editors allow to track document history and collaborative
+writing (e.g., https://www.sharelatex.com/).
+Word files can be set under version control, but changes between different
+versions can not be shown. 
+If your supervisor does not use git yet, he can make annotations in a pdf
+document, e.g using Adobe Acrobat.
+
 
 ### Coding standards
 
