@@ -1,6 +1,6 @@
-Motivation for the Research Code of Conduct (RCC)
+The Research Code of Conduct (RCC)
 ========================================================
-author: The RCC team (more later)
+author: The RRR team
 date: 1. June 2017
 autosize: true
 
@@ -60,7 +60,8 @@ The core of reproducibility  is a working version control system.
 
 Version control (aka git for us) should be implemented right from the start.
 
-If you don't know what git is, check the [git basics](https://git-scm.com/videos).
+If you don't know what git is, check the
+[git basics](https://git-scm.com/videos).
 
 A version control system also works as a kind of lab book, e.g.
 [RCC commits](https://github.com/KNMI/RCC/commits/master).
@@ -68,7 +69,8 @@ A version control system also works as a kind of lab book, e.g.
 Recommendations
 ========================================================
 
-Public repos should be stored on the [KNMI github](https://github.com/KNMI) account
+Public repos should be stored on the [KNMI github](https://github.com/KNMI)
+account
 
 Private repos (for a limited amount of users) can be obtained for free at
 [bitbucket](https://bitbucket.org/product)
@@ -92,8 +94,8 @@ Within a repository you will encounter frequently:
 Data management
 ========================================================
 
-For external data create a data management plan, see e.g.
-(http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm)
+For external data create a [data management
+plan](http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm).
 
 If not, the following rule still applies:
 
@@ -116,7 +118,8 @@ Writing
  - differences between versions can be shown natively
  - [sharelatex](https://www.sharelatex.com/) allows colaboratinve writing and
    tracks document history
- - [pandoc](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
+ - [pandoc
+   ](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
    allows to show differences even between word files
 
 
@@ -133,27 +136,46 @@ In order to make your code more readable for others, it is very useful to use
 some consitent coding style:
 
 - Python: [PEP8](https://www.python.org/dev/peps/pep-0008/)
-- R: [tidyverse](http://adv-r.had.co.nz/Style.html) or [google](https://google.github.io/styleguide/Rguide.xml)
+- R: [tidyverse](http://adv-r.had.co.nz/Style.html) or
+  [google](https://google.github.io/styleguide/Rguide.xml)
 
+Testing your functions automatically raises code quality.
 
 Sugar on top?
 ========================================================
 
-If you want to do even more to increase the reproducibility and reusability of
-your project.
-Have a look at the following links:
+The following links can help to improve reproducibility and reusability even
+more:
 
 - [docker](https://www.docker.com/) for even more reproducibility
-- [provenance](https://www.w3.org/TR/prov-dm/) Introduction to the concept of provenance and traceability according to W3C.
-- [dispel4py](https://github.com/dispel4py/dispel4py) processing library and workflows (https://github.com/aspinuso/wps_workflow)
+- [provenance](https://www.w3.org/TR/prov-dm/) Introduction to the concept of
+  provenance and traceability according to W3C.
+- [dispel4py](https://github.com/dispel4py/dispel4py) processing library and
+  workflows (https://github.com/aspinuso/wps_workflow)
 - [jupyter](https://jupyter.org/) for live notebooks
-- [travis CI](https://travis-ci.org/) for automatic checking
 - [doxygen](https://en.wikipedia.org/wiki/Doxygen) for easy documentation
-  / R-users should have a look at [roxygen2](https://cran.r-project.org/web/packages/roxygen2/index.html)
+  / R-users should have a look at
+  [roxygen2](https://cran.r-project.org/web/packages/roxygen2/index.html)
+- [travis CI](https://travis-ci.org/) for automatic checking
+- [codecov](https://codecov.io/) for test coverage
+
+Example: knmitransformer
+========================================================
+
+[Initial commit](https://github.com/MartinRoth/knmitransformer/tree/59845b5934b92899eec3c88a41c5eb0121cccbee)
+
+[Current status](https://github.com/MartinRoth/knmitransformer)
+
+[Milestones](https://github.com/MartinRoth/knmitransformer/milestones)
+
+[Travis CI](https://travis-ci.org/MartinRoth/knmitransformer/branches)
 
 The RRR team
 ========================================================
-Needs fresh blood as some people are leaving ...
+The team for reproducible and reusable research consists
+
+
+Some fresh blood is needed ...
 
 
 
