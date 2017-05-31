@@ -44,7 +44,18 @@ Recommendations:
 - if your supervisor does not use git yet get a git buddy, e.g. any 
   [member](https://github.com/orgs/KNMI/people) of the KNMI github account
 
+### Repository management
 
+Try to structure your repository, aka research project folder.
+Within a repository you will encounter frequently:
+
+ - data (for all the data)
+ - figures (for your plots)
+ - R (for your functions)
+ - src (for source code)
+ - scripts 
+ - ...
+ 
 ### Data management
 
 If the research involves data from external parties we advise to create a data 
@@ -59,18 +70,6 @@ We know that it will not be easy to follow these simple rules, but help us to
 make this easier instead of fiddling with your own work arounds. 
 Also feel free to consult [us](https://github.com/orgs/KNMI/teams/rrr) if you experience difficulties. 
 
-### Repository management
-
-Try to structure your repository, aka research project folder.
-Within a repository you will encounter frequently:
-
- - data (for all the data)
- - figures (for your plots)
- - R (for your functions)
- - src (for source code)
- - scripts 
- - ...
- 
 ### Writing
 
 You might think that git is something that programmers use, but that you are not
