@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Motivation for the Research Code of Conduct (RCC)</title>
+  <title>The Research Code of Conduct (RCC)</title>
     
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -784,7 +784,7 @@ hljs.initHighlightingOnLoad();
   <div class="slides">
 
 <section data-state="section" data-transition="linear" data-transition-speed="default">
-<h1>Motivation for the Research Code of Conduct (RCC)</h1><p>The RCC team (more later)<br/>1. June 2017</p>
+<h1>The Research Code of Conduct (RCC)</h1><p>The RRR team<br/>1. June 2017</p>
 
 <div class="slideContent" >
 
@@ -865,7 +865,8 @@ manuscript_v99.doc</p>
 
 <p>Version control (aka git for us) should be implemented right from the start.</p>
 
-<p>If you don&#39;t know what git is, check the <a href="https://git-scm.com/videos">git basics</a>.</p>
+<p>If you don&#39;t know what git is, check the
+<a href="https://git-scm.com/videos">git basics</a>.</p>
 
 <p>A version control system also works as a kind of lab book, e.g.
 <a href="https://github.com/KNMI/RCC/commits/master">RCC commits</a>.</p>
@@ -876,7 +877,8 @@ manuscript_v99.doc</p>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Recommendations</h3>
 <div class="slideContent" >
-<p>Public repos should be stored on the <a href="https://github.com/KNMI">KNMI github</a> account</p>
+<p>Public repos should be stored on the <a href="https://github.com/KNMI">KNMI github</a>
+account</p>
 
 <p>Private repos (for a limited amount of users) can be obtained for free at
 <a href="https://bitbucket.org/product">bitbucket</a></p>
@@ -908,8 +910,8 @@ Within a repository you will encounter frequently:</p>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Data management</h3>
 <div class="slideContent" >
-<p>For external data create a data management plan, see e.g.
-(<a href="http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm">http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm</a>)</p>
+<p>For external data create a <a href="http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm">data management
+plan</a>.</p>
 
 <p>If not, the following rule still applies:</p>
 
@@ -935,7 +937,8 @@ experience difficulties.</p>
 <li><p>differences between versions can be shown natively</p></li>
 <li><p><a href="https://www.sharelatex.com/">sharelatex</a> allows colaboratinve writing and
 tracks document history</p></li>
-<li><p><a href="http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/">pandoc</a>
+<li><p><a href="http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/">pandoc
+</a>
 allows to show differences even between word files</p></li>
 </ul>
 
@@ -956,8 +959,11 @@ some consitent coding style:</p>
 
 <ul>
 <li>Python: <a href="https://www.python.org/dev/peps/pep-0008/">PEP8</a></li>
-<li>R: <a href="http://adv-r.had.co.nz/Style.html">tidyverse</a> or <a href="https://google.github.io/styleguide/Rguide.xml">google</a></li>
+<li>R: <a href="http://adv-r.had.co.nz/Style.html">tidyverse</a> or
+<a href="https://google.github.io/styleguide/Rguide.xml">google</a></li>
 </ul>
+
+<p>Testing your functions automatically raises code quality.</p>
 
 </div>
 
@@ -965,19 +971,36 @@ some consitent coding style:</p>
 <section data-transition="linear" data-transition-speed="default">
 <h3>Sugar on top?</h3>
 <div class="slideContent" >
-<p>If you want to do even more to increase the reproducibility and reusability of
-your project.
-Have a look at the following links:</p>
+<p>The following links can help to improve reproducibility and reusability even
+more:</p>
 
 <ul>
 <li><a href="https://www.docker.com/">docker</a> for even more reproducibility</li>
-<li><a href="https://www.w3.org/TR/prov-dm/">provenance</a> Introduction to the concept of provenance and traceability according to W3C.</li>
-<li><a href="https://github.com/dispel4py/dispel4py">dispel4py</a> processing library and workflows (<a href="https://github.com/aspinuso/wps_workflow">https://github.com/aspinuso/wps_workflow</a>)</li>
+<li><a href="https://www.w3.org/TR/prov-dm/">provenance</a> Introduction to the concept of
+provenance and traceability according to W3C.</li>
+<li><a href="https://github.com/dispel4py/dispel4py">dispel4py</a> processing library and
+workflows (<a href="https://github.com/aspinuso/wps_workflow">https://github.com/aspinuso/wps_workflow</a>)</li>
 <li><a href="https://jupyter.org/">jupyter</a> for live notebooks</li>
-<li><a href="https://travis-ci.org/">travis CI</a> for automatic checking</li>
 <li><a href="https://en.wikipedia.org/wiki/Doxygen">doxygen</a> for easy documentation
-/ R-users should have a look at <a href="https://cran.r-project.org/web/packages/roxygen2/index.html">roxygen2</a></li>
+/ R-users should have a look at
+<a href="https://cran.r-project.org/web/packages/roxygen2/index.html">roxygen2</a></li>
+<li><a href="https://travis-ci.org/">travis CI</a> for automatic checking</li>
+<li><a href="https://codecov.io/">codecov</a> for test coverage</li>
 </ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
+<h3>Example: knmitransformer</h3>
+<div class="slideContent" >
+<p><a href="https://github.com/MartinRoth/knmitransformer/tree/59845b5934b92899eec3c88a41c5eb0121cccbee">Initial commit</a></p>
+
+<p><a href="https://github.com/MartinRoth/knmitransformer">Current status</a></p>
+
+<p><a href="https://github.com/MartinRoth/knmitransformer/milestones">Milestones</a></p>
+
+<p><a href="https://travis-ci.org/MartinRoth/knmitransformer/branches">Travis CI</a></p>
 
 </div>
 
@@ -985,7 +1008,9 @@ Have a look at the following links:</p>
 <section data-transition="linear" data-transition-speed="default">
 <h3>The RRR team</h3>
 <div class="slideContent" >
-<p>Needs fresh blood as some people are leaving &hellip;</p>
+<p>The team for reproducible and reusable research consists</p>
+
+<p>Some fresh blood is needed &hellip;</p>
 
 </div>
 
