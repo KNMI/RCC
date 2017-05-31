@@ -115,9 +115,9 @@ As it is usually a long way from initial idea to a published paper, a lot of
 knowledge vanishes when the changes between versions are not documented.
 
 Generic reports or *literate programming* as facilitated by markdown and latex
-help to keep everyting together.
+help to keep everything together.
 
-[Sharelatex](https://www.sharelatex.com/) allows colaboratinve writing and
+[Sharelatex](https://www.sharelatex.com/) allows collaborative writing and
 tracks document history.
 
 [Pandoc](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
@@ -143,7 +143,7 @@ Try to split your script into functions, as a rule of thumb:
 Collections of such functions can be used also by your colleagues...
 
 In order to make your code more readable for others, it is very useful to use
-some consitent coding style:
+some consistent coding style:
 
 - Python: [PEP8](https://www.python.org/dev/peps/pep-0008/)
 - R: [tidyverse](http://adv-r.had.co.nz/Style.html) or
