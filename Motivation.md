@@ -82,7 +82,7 @@ Repository management
 Try to structure your repository or research project folder.
 Within a repository you will encounter frequently:
 
- - data (for all the data)
+ - data (for all local data)
  - figures (for your plots)
  - scripts
  - R (if you define R functions)
@@ -108,30 +108,31 @@ experience difficulties.
 Writing
 ========================================================
 
-Git is not only for programmers, also the process to a report or published
-paper is long and many changes will be made to the initial document, if these
-are not documented a lot of knowledge will disappear.
+ - Git is not only for programmers
+ - many changes before initial document gets published
+ - without documentation knowledge of creation will disappear
 
-We encourage the use of traceable files, e.g. Latex or (variants of) markdown.
-Modern Latex online editors allow to track document history and collaborative
-writing (e.g., https://www.sharelatex.com/).
-Word files can be set under version control, but changes between different
-versions can not be shown.
-If your supervisor does not use git yet, he can make annotations in a pdf
-document, e.g using Adobe Acrobat.
+ - markdown and latex can be used for generic reports or literate programming
+ - differences between versions can be shown natively
+ - using pandoc also differences between .doc versions can be
+   [shown](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
 
-Coding standards
+
+Coding
 ========================================================
 
-If you do program functions or scripts, it is very useful to use some consitent
-coding style:
+Try to split your script into functions, as a rule of thumb:
+
+**If you copy & paste code three times, it is time to write a function...**
+
+Collections of such functions can be used also by your colleagues...
+
+In order to make your code more readable for others, it is very useful to use
+some consitent coding style:
 
 - Python: [PEP8](https://www.python.org/dev/peps/pep-0008/)
 - R: [tidyverse](http://adv-r.had.co.nz/Style.html) or [google](https://google.github.io/styleguide/Rguide.xml)
 
-More generally we think it is useful to write functions, that can be used as a
-module or package within several scripts.
-This increases the reusability and decreases the number of potential errors.
 
 Sugar on top?
 ========================================================
@@ -153,25 +154,4 @@ The RRR team
 Needs fresh blood as some people are leaving ...
 
 
-Slide With Code
-========================================================
 
-
-```r
-summary(cars)
-```
-
-```
-     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  
-```
-
-Slide With Plot
-========================================================
-
-![plot of chunk unnamed-chunk-2](Motivation-figure/unnamed-chunk-2-1.png)
