@@ -114,8 +114,10 @@ Writing
 
  - markdown and latex can be used for generic reports or literate programming
  - differences between versions can be shown natively
- - using pandoc also differences between .doc versions can be
-   [shown](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
+ - [sharelatex](https://www.sharelatex.com/) allows colaboratinve writing and
+   tracks document history
+ - [pandoc](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/)
+   allows to show differences even between word files
 
 
 Coding
