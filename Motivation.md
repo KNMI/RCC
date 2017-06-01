@@ -4,13 +4,13 @@ author: The RRR team
 date: 1. June 2017
 autosize: true
 
-Motivational examples
-========================================================
+<!-- Motivational examples -->
+<!-- ======================================================== -->
 
-- my own paper
-- Earthquake hazard
-- KNMI'14 scenario brochure
-- many more ...
+<!-- - my own paper -->
+<!-- - Earthquake hazard -->
+<!-- - KNMI'14 scenario brochure -->
+<!-- - many more ... -->
 
 Aim
 ========================================================
@@ -169,7 +169,7 @@ more:
 - [travis CI](https://travis-ci.org/) for automatic checking
 - [codecov](https://codecov.io/) for test coverage
 
-Example: knmitransformer
+Example: knmitransformer 
 ========================================================
 
 [Initial commit](https://github.com/MartinRoth/knmitransformer/tree/59845b5934b92899eec3c88a41c5eb0121cccbee)
