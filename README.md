@@ -1,7 +1,10 @@
 # Research Code of Conduct
 
 [![Project Status: WIP - Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](http://www.repostatus.org/badges/latest/wip.svg)](http://www.repostatus.org/#wip)
-[![Last updated](https://img.shields.io/badge/Date-2017/03/31-brightgreen.svg)]()
+[![Last updated](https://img.shields.io/badge/Date-2017/05/31-brightgreen.svg)]()
+
+Click [here](https://rawgit.com/KNMI/RCC/MotivationPresentation/Motivation.html)
+for a presentation.
 
 ### Why?
 
@@ -44,6 +47,32 @@ Recommendations:
 - if your supervisor does not use git yet get a git buddy, e.g. any 
   [member](https://github.com/orgs/KNMI/people) of the KNMI github account
 
+### Repository management
+
+Try to structure your repository, aka research project folder.
+Within a repository you will encounter frequently:
+
+ - data (for all the data)
+ - figures (for your plots)
+ - R (for your functions)
+ - src (for source code)
+ - scripts 
+ - tests
+ 
+### Data management
+
+If the research involves data from external parties we advise to create a data 
+management plan, see e.g. (http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm) 
+
+If not, the following rules still apply:
+
+- never copy and paste data
+- use scripts to obtain data (and keep those scripts under version control)
+
+We know that it will not be easy to follow these simple rules, but help us to
+make this easier instead of fiddling with your own work arounds. 
+Also feel free to consult [us](https://github.com/orgs/KNMI/teams/rrr) if you
+experience difficulties. 
 
 ### Writing
 
@@ -57,35 +86,11 @@ We encourage the use of traceable files, e.g. Latex or (variants of) markdown.
 Modern Latex online editors allow to track document history and collaborative
 writing (e.g., https://www.sharelatex.com/).
 Word files can be set under version control, but changes between different
-versions can not be shown. 
+versions can not be shown natively, for a workround look 
+[here](http://blog.martinfenner.org/2014/08/25/using-microsoft-word-with-git/).
 If your supervisor does not use git yet, he can make annotations in a pdf
 document, e.g using Adobe Acrobat.
 
-### Data management
-
-If the research involves data from external parties we advise to create a data 
-management plan, see e.g. (http://www.wur.nl/nl/show/What-is-a-Data-Management-Plan.htm) 
-
-If not, the following rules still apply:
-
-- never copy and paste data
-- use scripts to obtain data (and keep those scripts under version control)
-
-We know that it will not be easy to follow these simple rules, but help us to
-make this easier instead of fiddling with your own work arounds. 
-Also feel free to consult [us](https://github.com/orgs/KNMI/teams/rrr) if you experience difficulties. 
-
-### Repository management
-
-Try to structure your repository, aka research project folder.
-Within a repository you will encounter frequently:
-
- - data (for all the data)
- - figures (for your plots)
- - R (for your functions)
- - src (for source code)
- - scripts 
- - ...
 
 ### Coding standards
 
